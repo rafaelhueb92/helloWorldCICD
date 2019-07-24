@@ -1,0 +1,27 @@
+{
+  "name": "helloWorldCICD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./src/test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelhueb92/helloWorldCICD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelhueb92/helloWorldCICD/issues"
+  },
+  "homepage": "https://github.com/rafaelhueb92/helloWorldCICD#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "supertest": "^4.0.2"
+  }
+}
